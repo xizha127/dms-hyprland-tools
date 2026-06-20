@@ -1,0 +1,12 @@
+{
+  "id": "hyprlandWorkspaceRenamer",
+  "name": "Hyprland Workspace Renamer",
+  "description": "Shows the focused Hyprland workspace name and lets you rename it from the bar",
+  "version": "0.1.0",
+  "author": "xizha",
+  "type": "widget",
+  "capabilities": ["dankbar-widget"],
+  "component": "./HyprlandWorkspaceRenamer.qml",
+  "icon": "drive_file_rename_outline",
+  "requires_dms": ">=0.1.0"
+}
