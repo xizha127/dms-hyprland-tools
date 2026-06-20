@@ -1,12 +1,14 @@
 {
-  "id": "hyprlandWorkspaceRenamer",
-  "name": "Hyprland Workspace Renamer",
-  "description": "Shows the focused Hyprland workspace name and lets you rename it from the bar",
-  "version": "0.1.0",
+  "id": "hyprlandTools",
+  "name": "Hyprland Tools",
+  "description": "Shows the focused Hyprland workspace name, renames it inline, and reserves a right-click menu for future tools",
+  "version": "0.2.0",
   "author": "xizha",
   "type": "widget",
   "capabilities": ["dankbar-widget"],
-  "component": "./HyprlandWorkspaceRenamer.qml",
-  "icon": "drive_file_rename_outline",
+  "component": "./hyprlandTools.qml",
+  "settings": "./hyprlandToolsSettings.qml",
+  "icon": "build",
+  "permissions": ["settings_read", "settings_write"],
   "requires_dms": ">=0.1.0"
 }
