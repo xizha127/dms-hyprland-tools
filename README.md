@@ -14,7 +14,7 @@ A small [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) ba
 Clone this repo into your DMS plugins folder:
 
 ```sh
-git clone https://github.com/xizha127/hyprland-workspace-renamer.git \
+git clone https://github.com/xizha127/dms-hyprland-tools.git \
   ~/.config/DankMaterialShell/plugins/hyprlandTools
 ```
 
